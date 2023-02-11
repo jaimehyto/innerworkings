@@ -1,6 +1,6 @@
 let cx = 0;
 function setup() {
-  createCanvas(1280,800, WEBGL);
+  createCanvas(1500,800, WEBGL);
   createEasyCam();
   document.oncontextmenu = ()=>false;
   angleMode(DEGREES);
